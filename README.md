@@ -14,3 +14,6 @@ For a statement s to be ratfied, a node v sends a vote message with its quorum s
 A quorum is set B of nodes containing at least one quorum slice of each of its members.
 B is a quorum <=> For all v in B, there exists Q in Q(v) such that q is included in B.
 
+A statement is accepted when a quorum is reached around it.
+
+Nodes accepting the statement send a message stating their state "accept s"
