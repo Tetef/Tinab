@@ -1,0 +1,2 @@
+# Tinab
+A consensus protocol
